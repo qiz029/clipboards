@@ -1,7 +1,7 @@
 from pyhooked import Hook, KeyboardEvent, MouseEvent
-import pyperclip, pyautogui
+import pyperclip, pyautogui, tkinter
 
-clipper = {}
+clipper = {"1": "clip1", "2": "clip2", "3": "clip3", "4": "clip4", "5": "clip5"}
 
 def ctrlC():
     pyautogui.keyDown('ctrl')
@@ -66,3 +66,4 @@ def handle_events(args):
 hk = Hook()  # make a new instance of PyHooked
 hk.handler = handle_events  # add a new shortcut ctrl+a, or triggered on mouseover of (300,400)
 hk.hook()  # hook into the events, and listen to the presses
+

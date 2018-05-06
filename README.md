@@ -17,3 +17,8 @@ Usage:
 
 - Ctrl Q cannot quit
 - The actual process is still very long
+
+## Add clipboard Logger 
+- This Component is for logging for the clipboard
+- to use it, do ```python clipboardLogger.py {logLocation}```
+- the Log will be in the format of {counter} {content}
