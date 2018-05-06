@@ -22,46 +22,46 @@ def handle_events(args):
         if args.current_key == 'C' and args.event_type == 'key down' and 'Lshift' in args.pressed_key:
             if 'F1' in args.pressed_key:
                 print("shift C F1")
-                ctrlC()
+                #ctrlC()
                 clipper['1'] = pyperclip.paste()
             elif 'F2' in args.pressed_key:
                 print("shift C F2")
-                ctrlC()
+                #ctrlC()
                 clipper['2'] = pyperclip.paste()
             elif 'F3' in args.pressed_key:
                 print("shift C F3")
-                ctrlC()
+                #ctrlC()
                 clipper['3'] = pyperclip.paste()
             elif 'F4' in args.pressed_key:
                 print("shift C F4")
-                ctrlC()
+                #ctrlC()
                 clipper['4'] = pyperclip.paste()
             elif 'F5' in args.pressed_key:
                 print("shift C F5")
-                ctrlC()
+                #ctrlC()
                 clipper['5'] = pyperclip.paste()
 
         if args.current_key == 'V' and args.event_type == 'key down' and 'Lshift' in args.pressed_key:
             if 'F1' in args.pressed_key:
                 print("shift V F1")
                 pyperclip.copy(clipper["1"])
-                ctrlV()
+                #ctrlV()
             elif 'F2' in args.pressed_key:
                 print("shift V F2")
                 pyperclip.copy(clipper["2"])
-                ctrlV()
+                #ctrlV()
             elif 'F3' in args.pressed_key:
                 print("shift V F3")
                 pyperclip.copy(clipper["3"])
-                ctrlV()
+                #ctrlV()
             elif 'F4' in args.pressed_key:
                 print("shift V F4")
                 pyperclip.copy(clipper["4"])
-                ctrlV()
+                #ctrlV()
             elif 'F5' in args.pressed_key:
                 print("shift V F5")
                 pyperclip.copy(clipper["5"])
-                ctrlV()
+                #ctrlV()
 
 hk = Hook()  # make a new instance of PyHooked
 hk.handler = handle_events  # add a new shortcut ctrl+a, or triggered on mouseover of (300,400)

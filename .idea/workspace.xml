@@ -14,8 +14,8 @@
       <file leaf-file-name="clipboard.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/clipboard.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="418">
-              <caret line="22" column="40" selection-start-line="21" selection-start-column="102" selection-end-line="22" selection-end-column="40" />
+            <state relative-caret-position="1197">
+              <caret line="63" column="17" selection-start-line="63" selection-start-column="17" selection-end-line="63" selection-end-column="17" />
               <folding>
                 <element signature="e#0#52#0" expanded="true" />
               </folding>
@@ -36,8 +36,8 @@
         <entry file="file://$PROJECT_DIR$/README.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor>
-                <caret column="11" selection-start-column="11" selection-end-column="11" />
+              <first_editor relative-caret-position="342">
+                <caret line="18" column="29" selection-start-line="18" selection-start-column="29" selection-end-line="18" selection-end-column="29" />
               </first_editor>
               <second_editor />
             </state>
@@ -73,9 +73,9 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/clipboard.py" />
         <option value="$PROJECT_DIR$/__init__.py" />
         <option value="$PROJECT_DIR$/requirements.txt" />
+        <option value="$PROJECT_DIR$/clipboard.py" />
         <option value="$PROJECT_DIR$/README.md" />
       </list>
     </option>
@@ -192,16 +192,6 @@
     <entry file="file://$PROJECT_DIR$/__init__.py">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/clipboard.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="418">
-          <caret line="22" column="40" selection-start-line="21" selection-start-column="102" selection-end-line="22" selection-end-column="40" />
-          <folding>
-            <element signature="e#0#52#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/requirements.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="114">
@@ -209,11 +199,21 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/clipboard.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1197">
+          <caret line="63" column="17" selection-start-line="63" selection-start-column="17" selection-end-line="63" selection-end-column="17" />
+          <folding>
+            <element signature="e#0#52#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor>
-            <caret column="11" selection-start-column="11" selection-end-column="11" />
+          <first_editor relative-caret-position="342">
+            <caret line="18" column="29" selection-start-line="18" selection-start-column="29" selection-end-line="18" selection-end-column="29" />
           </first_editor>
           <second_editor />
         </state>

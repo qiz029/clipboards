@@ -11,3 +11,9 @@ Author: Todd_Zheng
 Usage: 
 - shift+F1/2/3/4/5+C will copy chosen text to the first clipboard
 - shift+F1/2/3/4/5+V will paste chosen text to the first clipboard
+
+
+###known issue
+
+- Ctrl Q cannot quit
+- The actual process is still very long
